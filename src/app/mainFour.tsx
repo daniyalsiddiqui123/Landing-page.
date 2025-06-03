@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function MainFour() {
   return (
     <div className="bg-black h-screen">
@@ -15,7 +17,7 @@ export default function MainFour() {
             <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
               <div className="h-28 overflow-hidden rounded-t-lg bg-[#9d789b]"></div>
               <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" />
+                <Image alt="" src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" />
               </div>
               <div className="p-6">
                 <h4 className="mb-4 text-2xl font-semibold 2xl:text-3xl">Maria Smantha</h4>
@@ -40,7 +42,7 @@ export default function MainFour() {
             <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
               <div className="h-28 overflow-hidden rounded-t-lg bg-[#7a81a8]"></div>
               <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" />
+                <Image alt="" src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" />
               </div>
               <div className="p-6">
                 <h4 className="mb-4 text-2xl font-semibold 2xl:text-3xl">Lisa Cudrow</h4>
@@ -65,7 +67,7 @@ export default function MainFour() {
             <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
               <div className="h-28 overflow-hidden rounded-t-lg bg-[#6d5b98]"></div>
               <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" />
+                <Image alt="" src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" />
               </div>
               <div className="p-6">
                 <h4 className="mb-4 text-2xl font-semibold 2xl:text-3xl">John Smith</h4>
