@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MainFour() {
   return (
-    <div className="bg-black h-screen">
+    <div className="bg-black h-[1500px] sm:h-[700px]">
       <section className="text-neutral-700 dark:text-neutral-300">
         <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
           <h3 className="mb-6 text-4xl font-bold text-green-300 2xl:text-7xl">Reviews</h3>
